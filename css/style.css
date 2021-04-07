@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap');
+/* font-family: 'Kiwi Maru', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: 'Merriweather', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+* {
+  padding: 0;
+}
+
+body {
+  font-size: 10px;
+  font-family: 'Merriweather', serif !important;
+  width: 100%;
+  line-height: 1.6;
+  margin: 2em;
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+
+
+/* Header     */
+.header-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0,0,0,0.5)) , url("https://images.pexels.com/photos/6530100/pexels-photo-6530100.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 40%;
+  left: 50%;
+  color: #fff;
+  font-size: 4rem;
+  white-space: nowrap;
+  font-style: italic;
+  font-weight: 700;
+  color: #bb6f36;
+}
+
+header p {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 47%;
+  left: 50%;
+  font-size: 1rem;
+  color: #fff;
+  white-space: nowrap;
+  font-weight: 300;
+}
+
+
+
+/* Parallax */
+.parallax {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0,0,0,0.7)) , url("https://images.pexels.com/photos/5794876/pexels-photo-5794876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 25%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* Navigation      */
+.navbar-brand {
+  color: #bb6f36 !important;
+}
+.nav-link {
+  line-height: 2;
+}
+
+
+/* About      */
+.about-container {
+  margin-top: 6em;
+}
+
+.about-container p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-photo-credit {
+  font-size: 0.7rem;
+}
+
+.contact-col h6 {
+  font-weight: 600;
+}
+
+.contact-col p {
+  font-size: 0.8rem;
+}
+
+
+
+/* Value      */
+.values p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+}
+
+.values-container {
+  margin: 6em auto;
+}
+.values h5 {
+  color: #bb6f36;
+}
+
+
+
+/* Food     */
+.food img {
+  width: 100%;
+}
+.food-row {
+  margin: 6em auto !important;
+}
+
+
+/* Horizontal Line     */
+hr {
+  color: #bb6f36 !important;
+}
+
+
+
+/* Menu      */
+.values-parallax {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.menu {
+  color: black;
+}
+.menu-heading {
+  margin: 2em auto 2em;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.menu-heading::after {
+  content:"";
+  display:block;
+  width: 3em;
+  max-width:70%;
+  border-bottom: 0.05em solid #bb6f36;
+  margin: .5em auto 0;
+}
+
+.menu-food-item span {
+  float: right !important;
+  font-size: 1.2rem;
+}
+
+.menu-food-item {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.menu-health-facts {
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.menu-food-item-description {
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* Drinks Menu      */
+.drink-menu-name {
+  font-weight: 200;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.drink-menu-ingredients {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+  color: #888;
+}
+
+.drink-menu-price {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+
+.col-sm {
+  text-align: center;
+}
+
+
+
+/* Footer      */
+.btn {
+  background-color: #bb6f36 !important;
+}
+.footer-container h6 {
+  color: #bb6f36 !important;
+}
+.site-footer {
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#F0F0F0;
+  background-color: #191722;
+}
+.site-footer hr {
+  border-top-color:#bbb;
+  opacity:0.5;
+}
+.site-footer hr.small {
+  margin:20px 0;
+}
+.site-footer h6 {
+  color:#F0F0F0;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px;
+}
+.site-footer a {
+  color:#737373;
+}
+.site-footer a:hover {
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links {
+  padding-left:0;
+  list-style:none;
+}
+.footer-links li {
+  display:block;
+}
+.footer-links a {
+  color:#fff;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover {
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li {
+  display:inline-block;
+}
+.site-footer .social-icons {
+  text-align:right;
+}
+.site-footer a {
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+}
+.copyright-text {
+  margin:0
+}
+@media (max-width:991px) {
+  .site-footer [class^=col-] {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px) {
+  .site-footer   {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer  {
+    text-align:center
+  }
+}
+
+@media (max-width:767px) {
+    .li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:425px) {
+  header h1 {
+    font-size: 2.4rem;
+  }
+  header p {
+    font-size: 0.9rem;
+  }
+
+
+  /* About - Phone      */
+  .about-container {
+    margin-top: 3em;
+  }
+  .about-container h3 {
+    font-size: 1.3rem;
+  }
+  .about-photo-credit {
+    font-size: 0.7rem !important;
+    margin-bottom: 30px !important;
+  }
+  .about-container p {
+    font-size: 0.9rem;
+  }
+  .contact-col p {
+    font-size: 0.8rem;
+  }
+  .contact-col {
+    padding-left: 30px !important;
+    margin-bottom: 30px;
+  }
+  .contact-col h6 {
+    font-weight: 700;
+  }
+
+
+
+  /* Values - Phone      */
+  .values h5 {
+    font-size: 1rem;
+    color: #bb6f36;
+  }
+  .values p {
+    font-size: 0.8rem;
+  }
+  .values img {
+    width: 24px;
+  }
+
+
+  /* Menu - Phone      */
+  .menu-heading {
+    margin: 2em auto 2em;
+    font-size: 1.2rem;
+  }
+  .menu-food-item , .menu-food-item span {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .menu-health-facts {
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+  }
+  .menu-food-item-description {
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+  }
+
+
+  /* Drinks Menu - Phone      */
+  .drink-menu-name {
+    font-size: 1rem;
+    margin-bottom: 0.5em;
+  }
+  .drink-menu-ingredients {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .drink-menu-price {
+    font-size: 1rem;
+    margin-bottom: 2.5em;
+  }
+  .drinks {
+    margin-bottom: 60px;
+  }
+
+
+  /* Footer - Phone     */
+  footer p , footer h6 , footer li {
+    font-size: 0.8rem !important;
+  }
+}
+
+
+
+@media only screen and (min-width:426px) and (max-width:768px) {
+  /* About - Tablet     */
+  .about-container {
+    margin-top: 3em;
+  }
+  .about-container h3 {
+    font-size: 1.3rem;
+  }
+  .about-photo-credit {
+    font-size: 0.7rem !important;
+  }
+  .about-container p {
+    font-size: 0.9rem;
+  }
+  .contact-col p {
+    font-size: 0.8rem;
+  }
+  .contact-col {
+    padding-left: 30px !important;
+  }
+  .contact-col h6 {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+
+  /* Value - Tablet     */
+  .values h5 {
+    font-size: 1rem;
+  }
+  .values p {
+    font-size: 0.7rem;
+  }
+
+
+  /* Menu - Tablet      */
+  .menu-heading {
+    margin: 2em auto 2em;
+    font-size: 1.1rem;
+  }
+  .menu-food-item span {
+    font-size: 0.9rem;
+  }
+  .menu-food-item {
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-bottom: 0.2em;
+  }
+  .menu-health-facts {
+    font-size: 0.6rem;
+  }
+  .menu-food-item-description {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+
+
+  /* Drinks Menu - Tablet      */
+  .drink-menu-name {
+    font-size: 0.9rem;
+    margin-bottom: 0.5em;
+  }
+  .drink-menu-ingredients {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .drink-menu-price {
+    font-size: 0.9rem;
+    margin-bottom: 2.5em;
+  }
+  .drinks {
+    margin-bottom: 60px;
+  }
+}
+
+
+@media only screen and (min-width:1440px) {
+  header h1 {
+    font-size: 6rem;
+  }
+  header p {
+    font-size: 1.2rem;
+  }
+}
