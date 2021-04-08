@@ -205,6 +205,27 @@ hr {
   text-align: center;
 }
 
+.drinks {
+  margin-bottom: 9em !important;
+}
+
+
+/* Back to top      */
+.back-to-top {
+  font-size: 18px;
+}
+.back-to-top img {
+  width: 1.5em;
+}
+.back-to-top a {
+  text-decoration: none;
+  color: black;
+}
+.back-to-top a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
 
 
 /* Footer      */
@@ -297,31 +318,19 @@ hr {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* MEDIA           */
+@media only screen and (max-width:22.5em) {
+  header h1 {
+    font-size: 2rem !important;
+  }
+}
 @media only screen and (min-width:320px) and (max-width:425px) {
   header h1 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
   header p {
     font-size: 0.9rem;
   }
-
-
   /* About - Phone      */
   .about-container {
     margin-top: 3em;
@@ -346,9 +355,6 @@ hr {
   .contact-col h6 {
     font-weight: 700;
   }
-
-
-
   /* Values - Phone      */
   .values h5 {
     font-size: 1rem;
@@ -360,8 +366,6 @@ hr {
   .values img {
     width: 24px;
   }
-
-
   /* Menu - Phone      */
   .menu-heading {
     margin: 2em auto 2em;
@@ -379,8 +383,6 @@ hr {
     font-size: 0.8rem;
     margin-bottom: 30px;
   }
-
-
   /* Drinks Menu - Phone      */
   .drink-menu-name {
     font-size: 1rem;
@@ -398,8 +400,6 @@ hr {
   .drinks {
     margin-bottom: 60px;
   }
-
-
   /* Footer - Phone     */
   footer p , footer h6 , footer li {
     font-size: 0.8rem !important;
@@ -463,8 +463,6 @@ hr {
     font-size: 0.8rem;
     margin-bottom: 20px;
   }
-
-
   /* Drinks Menu - Tablet      */
   .drink-menu-name {
     font-size: 0.9rem;
@@ -485,11 +483,29 @@ hr {
 }
 
 
+@media only screen and (min-width:426px) and (max-width:640px) {
+  header h1 {
+    font-size: 2.9rem;
+  }
+  header p {
+    font-size: 1.0rem;
+  }
+}
+
+
 @media only screen and (min-width:1440px) {
   header h1 {
-    font-size: 6rem;
+    font-size: 5rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 50%;
   }
   header p {
     font-size: 1.2rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
   }
 }
